@@ -1,10 +1,12 @@
 # Android-SPP-Car-Controller
 🚗 本项目是一款基于 Android 蓝牙 RFCOMM 串口通信的智能小车控制 APP，通过蓝牙与下位机单片机小车建立连接，实现摇杆行走控制、多档位调速、灯光/喇叭/传感器交互，同时实时接收小车回传电压、超声波测距、温度数据并展示。
+
 <br>
 <p align='center'>
   <img src="screenshot.jpg" height="300"></img>
 </p>
 <br>
+
 ### 功能清单
 1. **蓝牙连接管理**
     - 自动读取系统已配对蓝牙设备，下拉选择设备 MAC 地址一键连接
